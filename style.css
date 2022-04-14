@@ -1,0 +1,52 @@
+body {
+    background-color: aquamarine;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #66bfbf;
+}
+
+h2 {
+    font-family: montserrat, sans-serrif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    min-height: 472px;
+    padding-top: 50px;
+}
+
+.jessy {
+    width: 60%;
+    margin: auto;
+}
+
+.jessy h1 {
+    margin: 0px 0px;
+    font-size: 5em;
+    color: #fff;
+}
+
+.jessy p {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px 0px;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content1 {
+    width: 60%;
+}
+
+.content1 h2 {
+    color: #fff;
+    margin: 0px 0px;
+}
