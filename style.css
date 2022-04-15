@@ -1,9 +1,10 @@
 body {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     text-align: center;
+    font-family: merriweather, serif;
 }
 
 header {
@@ -12,13 +13,19 @@ header {
 
 h2 {
     font-family: montserrat, sans-serrif;
+    font-size: 1.8em;
 }
 
 .container {
-    width: 80%;
+    max-width: 90%;
     margin: auto;
     min-height: 472px;
     padding-top: 50px;
+}
+
+.container_footer {
+    max-width: 90%;
+    margin: auto;
 }
 
 .jessy {
@@ -30,6 +37,7 @@ h2 {
     margin: 0px 0px;
     font-size: 5em;
     color: #fff;
+    font-family: cursive;
 }
 
 .jessy p {
@@ -40,13 +48,128 @@ h2 {
 .header_content {
     display: flex;
     justify-content: space-between;
+    padding-top: 100px;
+    flex-wrap: wrap;
+    max-width: 85%;
+    margin: auto;
 }
 
 .content1 {
-    width: 60%;
+    width: 62%;
 }
 
 .content1 h2 {
     color: #fff;
     margin: 0px 0px;
+}
+
+.content1 p {
+    margin: 5px 0px;
+    line-height: 1.8em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.id_two {
+    padding-top: 0;
+}
+
+.id_two h2 {
+    margin-top: 0;
+    color: #66bfbf;
+    padding-top: 30px;
+}
+
+.id_two h3 {
+    color: #11999e;
+    font-family: montserrat, sans-serrif;
+    font-size: 1.2em;
+}
+
+.id_two p {
+    font-family: merriweather, serif;
+    margin-bottom: 30px;
+}
+
+.id_three {
+    background-color: #acdbdb;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.content3 {
+    min-height: 270px;
+}
+
+.content3 h2 {
+    color: #66bfbf;
+    margin-bottom: 0;
+}
+
+.content3 p{
+    font-family: merriweather, serif;
+}
+
+ul {
+    font-family: merriweather, serif;
+    line-height: 1.8em;
+    margin-top: 0;
+}
+
+li {
+    display: block;
+}
+
+.content4 h2 {
+    color: #66bfbf;
+    margin: 0 0;
+}
+
+.content4 h4 {
+    font-family: montserrat, sans-serrif;
+    font-size: 1.17em;
+    color: #66bfbf;
+}
+
+.name {
+    display: inline-grid;
+}
+
+.content4 {
+    font-family: merriweather, serif;
+    margin-bottom: 50px;
+}
+
+.name label, .name input, .options input, .choice input {
+    margin-bottom: 15px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%;
+    margin: auto;
+    font-family: merriweather, serif;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.comment textarea {
+    margin: 10px 10px;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #11999e;
+    color: white;
+}
+
+footer {
+    background-color: #11999e;
+}
+
+.container_footer {
+    line-height: 2em;
+    padding: 20px 0;
 }

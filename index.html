@@ -37,7 +37,7 @@
 
     <main>
 
-        <div id="2" class="container">
+        <div id="2" class="container id_two">
 
             <h2>My Skills.</h2>
 
@@ -60,49 +60,65 @@
 
         </div>
 
-        <div id="3" class="container">
-            <h2>Services</h2>
-            <p>Here is a list of what services i can offer you</p>
-            <ul>
-                <li>Web Development</li>
-                <li>Programming</li>
-                <li>Product design</li>
-            </ul>
+        <div id="3" class="id_three">
+
+            <div class="container content3">
+                <h2>Services</h2>
+                <p>Here is a list of what services i can offer you</p>
+                <ul>
+                    <li>Web Development</li>
+                    <li>Programming</li>
+                    <li>Product design</li>
+                </ul>
+            </div>
+
         </div>
 
         <div id="4" class="container">
 
-            <div>
-                <h3>Would you love to do business with me?</h3>
+            <div class="content4">
+                <h2>Would you love to do business with me?</h2>
                 <h4>Get in touch.</h4>
 
-                <form action="">
+                <form action="post">
 
-                    <div>
+                    <div class="name">
                         <label for="name">Enter your full name</label>
                         <input type="text" id="name">
                         <label for="email">Enter your email</label>
                         <input type="email" id="email">
                     </div>
 
-                    <div>
-                        <label for="gender">Enter your gender</label>
-                        <input type="radio" name="gender" id="radio-male" value="male">Male
-                        <input type="radio" name="gender" id="radio-female" value="female">Female
-                        <input type="radio" name="gender" id="radio-others" value="others">Others
+                    <div class="options">
+
+                        <div>
+                            <label for="gender">Enter your gender</label>
+                            <br> <br>
+                            <input type="radio" name="gender" id="radio-male" value="male">Male
+                            <br>
+                            <input type="radio" name="gender" id="radio-female" value="female">Female
+                            <br>
+                            <input type="radio" name="gender" id="radio-others" value="others">Others
+                        </div>
+    
+                        <div class="choice">
+                            <label for="hobbies">Hobbies:</label>
+                            <br> <br>
+                            <input type="checkbox" name="hobbies" id="checkbox-cricket" value="cricket">Cricket
+                            <br>
+                            <input type="checkbox" name="hobbies" id="checkbox-football" value="football">Football
+                            <br>
+                            <input type="checkbox" name="hobbies" id="checkbox-hockey" value="hockey">Hockey
+                        </div>
+
                     </div>
 
-                    <div>
-                        <label for="hobbies">Hobbies:</label>
-                        <input type="checkbox" name="hobbies" id="checkbox-cricket" value="cricket">Cricket
-                        <input type="checkbox" name="hobbies" id="checkbox-football" value="football">Football
-                        <input type="checkbox" name="hobbies" id="checkbox-hockey" value="hockey">Hockey
-                    </div>
-
-                    <div>
+                    <div class="comment">
                         <label for="textarea">Type your comment:</label>
-                        <textarea name="textarea" id="text_area" cols="30" rows="10"></textarea>
-                        <button type="submit">Submit</button>
+                        <br>
+                        <textarea name="textarea" id="text_area" cols="20" rows="2"></textarea>
+                        <br>
+                        <button type="submit" id="Submit_button" class="btn">Submit</button>
                     </div>
 
                 </form>
@@ -115,7 +131,7 @@
 </body>
 
 <footer id="footer">
-    <div class="container">
+    <div id="5" class="container_footer">
 
         <div>
             <a href="#">LinkedIn</a>
